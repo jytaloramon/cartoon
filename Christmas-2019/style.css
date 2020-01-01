@@ -1,0 +1,354 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.scene {
+    margin: 50px 100px;
+    padding: 10px 10px 10px 200px;
+    width: 800px;
+    border: 5px solid rgb(41, 39, 16);
+}
+
+.hat {
+    margin: -100px 0px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 100%;
+}
+
+.bar-hat {
+    margin: -55px 0px;
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 15;
+}
+
+.head {
+    margin: -50px -5px;
+    position: absolute;
+    width: 90px;
+    height: 125px;
+    border: 1px solid black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    z-index: 10;
+}
+
+.little-ball {
+    margin: 0px auto;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+.vision {
+    margin: 20px 7px;
+    padding-top: 5px;
+    width: 75px;
+    height: 45px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 236, 169);
+    border-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.box-vision {
+    margin: 0px auto;
+    background-color: transparent;
+}
+
+.eye {
+    margin: -1px auto;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.eyebrow {
+    width: 20px;
+    height: 4px;
+    border: 1px solid black;
+}
+
+.ball-makeup {
+    margin: 5px auto;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: rgb(231, 155, 120);
+}
+
+.nose {
+    margin: 20px auto;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: rgb(255, 0, 0);
+}
+
+.mouth {
+    margin: -25px 30px;
+    width: 25px;
+    height: 18px;
+    border-radius: 100%;
+    position: absolute;
+    border-bottom: 8px solid black;
+    transform: rotate(20deg);
+}
+
+.body {
+    margin: 0px -80px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    z-index: 0;
+}
+
+.belt {
+    margin: 150px -5px;
+    position: absolute;
+    width: 210px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.belt p {
+    margin: 0px auto;
+    width: 30px;
+    height: 20px;
+    background-color: transparent;
+    border: 5px solid rgb(151, 114, 20);
+    border-left-color: rgb(211, 167, 55);
+    border-right-color: rgb(211, 167, 55);
+}
+
+.lace {
+    margin: 200px -92px;
+    position: absolute;
+    width: 220px;
+    height: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 5;
+}
+
+.floor {
+    margin: 225px auto;
+    position: absolute;
+    z-index: 0;
+}
+
+.leg {
+    margin: 0px 0px;
+    position: absolute;
+    width: 30px;
+    height: 70px;
+    background-color: rgb(255, 0, 0);
+}
+
+.foot {
+    margin: 70px -20px;
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background-color: rgb(22, 22, 19);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.arm-full {
+    position: absolute;
+    transform: rotate(30deg);
+    z-index: 100;
+}
+
+.arm {
+    margin: 0px 0px;
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+}
+
+.collar-arm {
+    margin: -5px 0px;
+    position: absolute;
+    width: 15px;
+    height: 40px;
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.hand {
+    margin: 0px -20px;
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    background-color: chocolate;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 10px;
+}
+
+.line-ball {
+    margin: 20px 0px;
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+}
+
+.tree-christmas {
+    margin: -75px 125px;
+    position: absolute;
+    z-index: 50;
+}
+
+.star {
+    margin: -100px 150px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 300;
+}
+
+.tree-part {
+    margin: 0px auto;
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-color: transparent transparent #009221 transparent;
+    border-radius: 30%;
+}
+
+.tree-trunk {
+    margin: 0px auto;
+    position: relative;
+    width: 50px;
+    height: 80px;
+    background-color: rgb(59, 38, 38);
+}
+
+.reindeers {
+    margin: 0px 0px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 300;
+}
+
+.reindeer-body {
+    margin: 0px 0px;
+    width: 80px;
+    height: 100px;
+    background-color: rgb(224, 165, 56);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.reindeer-body>p {
+    margin: -15px 25px;
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    background-color: rgb(224, 165, 56);
+}
+
+.reindeer-body>p+p {
+    margin: 50px 15px;
+    position: absolute;
+    width: 45px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.reindeer-head {
+    margin: 0px 25px;
+    padding: 4px 0px;
+    position: relative;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(224, 165, 56);
+    border-bottom-right-radius: 50px;
+}
+
+.reindeer-head-ear {
+    margin: 0px -15px;
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background-color: rgb(224, 165, 56);
+    border-bottom-left-radius: 10px;
+}
+
+.reindeer-head-eye {
+    margin: 0px 20px;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 100%;
+    border-bottom: 3px solid black;
+}
+
+.reindeer-head-nose {
+    margin: -25px 70px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.reindeers-horn {
+    margin: 0px 0px;
+    position: relative;
+    width: 5px;
+    height: 25px;
+    background-color: rgb(88, 65, 6);
+    border-radius: 5px 5px;
+}
+
+.reindeers-horn-horuzontal {
+    margin: -12px 0px;
+    transform: rotate(90deg);
+}
+
+.reindeer-mouth {
+    margin: 40px;
+    position: relative;
+    width: 10px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+}
